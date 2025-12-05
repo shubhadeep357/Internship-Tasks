@@ -1,0 +1,18 @@
+body {
+    /* "Transient" bluish-white gradient */
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    /* Ensure it covers the full vertical height of the screen */
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Make the form container white so it stands out */
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    /* Keep existing layout styles */
+    max-width: 400px; 
+    margin: 50px auto; 
+    padding: 30px; 
+}

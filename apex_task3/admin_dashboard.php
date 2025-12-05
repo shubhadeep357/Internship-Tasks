@@ -1,6 +1,6 @@
 <?php
 // admin_dashboard.php
-session_start();
+session_start()
 include 'db_connect.php';
 
 // 1. Access Control (Security)
